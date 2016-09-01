@@ -2,22 +2,27 @@
 '''
 #1 输入和输出
 #1.1
-print('hello ,world')
+print('\n***************************输入和输出**********************\n')
+print('Hello ,Python')
 #1.2
 print(300)
 print(100+200)
 print('100 + 200 =',100+200)
 '''
 
+'''
 #2.Python基础
 #2.1数据类型和变量
-print('\n多行输出')
+print('\n*****************************数据类型和变量*************************\n')
+print('多行输出')
 print('line1\nline2\nline3')	#多行输出
+'''
 #多行输出另一种方式
-print('''line4
-line5
-line6''')
+#print('''line4
+#line5
+#line6''')
 
+'''
 #布尔值，只有True和False
 print('\n布尔值')
 print(3>2)
@@ -41,6 +46,35 @@ print('\n非运算')
 print(not True)
 print(not False)
 print(not 6==7)
+
+print('\n********************************变量和常量************************\n')
+#变量
+a = 1
+print(a)
+a = 'ABC'
+print(a)
+
+#常量
+PI = 3.14159265359
+print(PI)
+print('10/3  = ',10/3)
+print('9/3   = ',9/3)
+print('10//3 = ',10//3)
+print('10%3  = ',10%3)
+'''
+
+#2.2 字符串和编码
+print('/n*********************************格式化输出***********************\n')
+money = 100
+name = 'wang'
+print('Hello %s,you have $%d.\n' % (name,money))
+
+
+
+
+
+
+
 
 
 
