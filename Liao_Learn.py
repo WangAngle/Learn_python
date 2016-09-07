@@ -64,11 +64,47 @@ print('10%3  = ',10%3)
 '''
 
 #2.2 字符串和编码
-print('/n*********************************格式化输出***********************\n')
+'''
+print('\n*********************************格式化输出***********************\n')
 money = 100
 name = 'wang'
 print('Hello %s,you have $%d.\n' % (name,money))
+'''
 
+#2.3 list和tuple
+'''
+print('\n*********************************list和tuple***********************\n')
+classmates = ['wang', 'li_hong', 'name']
+print(classmates)
+print(classmates[0])
+print(classmates[1])
+print(classmates[2])
+print(classmates[-1])
+print(classmates[-2])
+print(classmates[-3])
+'''
+'''
+print('\n*********************************list***********************\n')
+classmates = ['wang', 'li_hong', 'name']
+print(classmates)
+classmates.append('now')
+print(classmates)
+classmates.insert(2,'jhon')
+print(classmates)
+classmates.pop()
+print(classmates)
+classmates.pop(1)
+print(classmates)
+classmates[2] = 'cherry'
+print(classmates,)
+'''
+
+print('\n*********************************list***********************\n')
+list = ['angle',100,0x13]
+print(list)
+list = ['angle',['cherry','black'],'crow']
+print(list)
+print('list_len = %d'%len(list))
 
 
 
