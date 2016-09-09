@@ -1,4 +1,5 @@
-#coding = utf-8
+# -*- coding: utf-8 -*-
+
 '''
 #1 输入和输出
 #1.1
@@ -83,6 +84,7 @@ print(classmates[-1])
 print(classmates[-2])
 print(classmates[-3])
 '''
+
 '''
 print('\n*********************************list***********************\n')
 classmates = ['wang', 'li_hong', 'name']
@@ -99,20 +101,63 @@ classmates[2] = 'cherry'
 print(classmates,)
 '''
 
+'''
 print('\n*********************************list***********************\n')
 list = ['angle',100,0x13]
 print(list)
 list = ['angle',['cherry','black'],'crow']
 print(list)
 print('list_len = %d'%len(list))
+print(list[1])
+list1 = ['cherry','black']
+list2 = ['angle',list1,'crow']
+print(list2)
+print(list1[0])
+print(list2[1][0])
+'''
+
+'''
+print('\n*********************************tuple***********************\n')
+tuple1 = ('name','grade','class')
+print(tuple1)
+
+tuple1 = (1,)
+print(tuple1)
+tuple1 = (1)
+print(tuple1)
+'''
+'''
+#2.3条件判断
+print('\n********************************* if-else ***********************\n')
+age = 16
+age = int(age)		
+print('Your age is ',age)
+if age > 18:
+	print('You are Adult.')
+elif age > 6:
+	print('You are Teenager.')
+else:
+	print('You are Kid.')
+	
+	
+birth = input('birth:')		#数据输入,返回str类型 
+birth = int(birth)			#转换为int型数据
+if birth > 2000:	
+	print('00后')
+else:
+	print('00前')
+'''
+
+#2.4循环
+print('\n********************************* 循环 ****************************\n')
+	
 
 
-
-
-
-
-
-
+	
+	
+	
+	
+	
 
 '''
 #3 函数
