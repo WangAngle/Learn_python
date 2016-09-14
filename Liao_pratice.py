@@ -81,7 +81,7 @@ print('classmates[-1] =', classmates[-1])
 高于32：严重肥胖
 用if-elif判断并打印结果：
 '''
-
+'''
 height = 1.75
 weight = 80.5
 
@@ -96,8 +96,11 @@ elif bmi < 32:
 	print('肥胖')
 else:
 	print('严重肥胖')
-	
+'''
 #2.4循环
+
+
+
 
 
 
